@@ -1,0 +1,13 @@
+{
+  "name": "debugging-tutorial",
+  "version": "0.1.0",
+  "description": "Simple JavaScript project with intentional bugs for debugging training",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "run:all": "node src/index.js all"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
