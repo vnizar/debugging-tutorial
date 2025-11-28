@@ -6,7 +6,7 @@ const asyncu = require('./asyncUtils');
 
 function logResult(name, expected, actual) {
   const pass = expected === actual;
-  console.log(name + ' expected=' + expected + ' actual=' + actual + ' ' + (pass ? 'PASS' : 'FAIL'));
+  console.log(name + 'log version 2 expected=' + expected + ' actual=' + actual + ' ' + (pass ? 'PASS' : 'FAIL'));
   return pass;
 }
 
